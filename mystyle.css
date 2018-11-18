@@ -1,0 +1,253 @@
+body{
+           background-color: #F6F6F6;
+          
+          }
+          
+          .navbar{
+              
+              padding-top: 10px;
+              padding-bottom: 10px;
+              border: 0;
+              border-radius: 0;
+              margin-bottom: 0;
+              letter-spacing: 1px;
+              z-index: 9999;
+              -webkit-box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.5);
+              -moz-box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.5);
+              box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.5);
+              width: 100%;
+              
+                    }
+          
+          #first-section{
+              
+              background-image: url(images/bg.jpg);
+              background-size: cover;
+              box-shadow: 0 4px 8px 5px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+              height: 940px;
+              border-radius: 0;
+              
+              
+          }
+          
+          #first-section-content{
+              
+              color: white;
+              text-align: center;
+              text-shadow: 2px 3px 2px rgba(0, 0, 0, 0.8);
+              background-color: rgb(0,0,0); /* Fallback color */
+              background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+              font-weight: bold;
+              border: 1px solid #f1f1f1;
+              position: absolute;
+              top: 50%;
+              left: 50%;
+              transform: translate(-50%, -50%);
+              z-index: 2;
+              width: 80%;
+              padding: 20px;
+              text-align: center;
+             
+          }
+         
+          #wrapper{
+              
+              -webkit-transition: all 1s ease;
+              -moz-transition: all 1s ease;
+              -o-transition: all 1s ease;
+              transition: all 1s ease;
+                      
+          }
+          
+          #section-two h2{
+              
+              text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.8);
+              font-size: 2.1875rem;
+          }
+          
+          #section-two{
+           
+              font-weight: normal;
+              position: relative;
+              padding-top: 150px;
+              margin-bottom: 50px;
+              height: 700px;
+              font-size: 1.125rem;
+              
+          }
+          
+          #section-three{
+              
+              background-image: url(images/bg2.jpg);
+              background-size: cover;
+              box-shadow: 0 4px 8px 5px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+              position: relative;
+                
+          }
+          
+          #section-three-header h3{
+              
+            
+              color: white; 
+              text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.8);
+              font-size: 2.1875rem;
+              text-align: center;
+              position: relative;
+              padding-top: 20px;
+              
+          }
+          
+          #footer h3{
+              
+             text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.8);
+             font-size: 2.1875rem;
+             
+              padding-top: 50px;
+              padding-bottom: 50px;
+          }
+          #footer{
+              
+              height: 550px;
+              
+              
+          }
+          
+          #form-submit{
+              
+              margin-bottom: 100px;
+          }
+          
+          .nav-link{
+              
+              -webkit-transition: all 0.5s ease;
+              -moz-transition: all 0.5s ease;
+              -o-transition: all 0.5s ease;
+              transition: all 0.5s ease; 
+              cursor: pointer;
+              padding-left: 10px;
+              padding-right: 10px;
+              position: relative;
+              
+          }
+          
+          
+          .expandedButton{
+              
+              letter-spacing: 5px;
+              
+              color: darkgoldenrod!important;
+              
+          }
+          
+          .navbar-brand{
+              
+              position: relative;
+          }
+          .navbar-brand:hover{
+              
+              color:darkgoldenrod!important;
+              -webkit-transition: all 0.5s ease;
+              -moz-transition: all 0.5s ease;
+              -o-transition: all 0.5s ease;
+              transition: all 0.5s ease; 
+              cursor: pointer;
+              padding-bottom: 10px;
+              
+          }
+          
+          html{
+              
+              scroll-behavior: smooth;
+               -webkit-transition: all 1s ease;
+              -moz-transition: all 1s ease;
+              -o-transition: all 1s ease;
+              transition: all 1s ease;
+          }
+          
+            .button {
+            position: relative;
+            
+            border: none;
+            font-size: 22px;    
+            width: 100px;
+                padding: 10px;
+            text-align: center;
+            -webkit-transition-duration: 0.4s; /* Safari */
+            transition-duration: 0.4s;
+            text-decoration: none;
+            overflow: hidden;
+            cursor: pointer;
+            }
+
+            .button:after {
+                content: "";
+                background: white;
+                display: block;
+                position: absolute;
+                padding-top: 300%;
+                padding-left: 350%;
+                margin-left: -20px!important;
+                margin-top: -120%;
+                opacity: 0;
+                transition: all 0.8s
+            }
+
+            .button:active:after {
+                padding: 0;
+                margin: 0;
+                opacity: 1;
+                transition: 0s
+                }
+         
+          
+          .backtotopdiv a{
+              
+              text-decoration: none;
+              color: grey;
+              letter-spacing: 1px;
+              display: inline-block;
+               -webkit-transition: all 0.3s ease;
+              -moz-transition: all 0.3s ease;
+              -o-transition: all 0.3s ease;
+              transition: all 0.3s ease; 
+          }
+          
+          .backtotopdiv a:hover{
+              
+              color:darkgoldenrod!important;
+              text-decoration: none;
+              transform: translate(0, -5px);
+              
+          }
+          
+          .backtotopdiv a.top {
+              
+              display: block;
+              padding: 10px;
+          }
+          
+          .backtotopdiv a.top:hover{
+              
+              letter-spacing: 5px;
+              transform: translate(0, -20px);
+          }
+          
+          #form-feedback {
+          
+          opacity: 0;
+          margin: 5px;
+          margin-right: 80px;
+          -webkit-transition: all .5s ease-out;
+          -moz-transition: all .5s ease-out;
+          -o-transition: all .5s ease-out;
+          transition: all .5s ease-out;
+}
+          #form-submit{
+              
+              background-color: grey;
+          }
+          
+          #form-submit:hover{
+              
+              background-color: darkgoldenrod;
+          }
